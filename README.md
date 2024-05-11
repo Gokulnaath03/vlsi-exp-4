@@ -20,20 +20,7 @@ and verify the outputs as per the truth table.
 
 #SR FLIP FLOP:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/9640e914-da6d-4a80-9206-7f88da588964)
 
 
 
@@ -59,51 +46,12 @@ endmodule
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/527c46d3-cf4a-439f-97cc-03502880e411)
 
 
 #JK FLIP FLOP:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/ad27b7ee-b953-414c-a860-6fc83a58bf29)
 
 
 #PROGRAM:
@@ -129,52 +77,13 @@ endmodule
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/f356b3d7-2ab4-4bac-81ae-33a52efc5fd3)
 
 
 
 #T FLIP FLOP:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/dac32ff4-ed21-4c74-8d5f-a9d260d5f5e5)
 
 
 #PROGRAM:
@@ -198,54 +107,13 @@ endmodule
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/415600c8-e0ce-4a0c-89ec-d8b453463909)
 
 
 #D FLIP FLOP:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/e7feae95-5eaa-4ba0-98b9-69d0ab8edfc3)
 
 
 #PROGRAM:
@@ -260,35 +128,11 @@ else
 q=d;
 end
  endmodule
+ 
 
  #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/2e577452-ad66-4ad2-8f55-e5d8e6b65198)
 
 
 
