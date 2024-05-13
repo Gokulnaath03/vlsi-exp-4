@@ -134,10 +134,54 @@ end
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/2e577452-ad66-4ad2-8f55-e5d8e6b65198)
 
+#MOD 10 COUNTER
 
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/226df16f-07b1-423c-8ff6-c1859ec08242)
+
+#PROGRAM:
+
+module mod_10(clk,rst,out);
+input clk,rst;
+output reg[3:0]out;
+always@(posedge clk)
+begin
+if(rst==1|out==9)
+out=4'b0;
+else
+out=out+1;
+end
+endmodule
+
+
+#OUPUT:
+
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/49ae3a7d-1a45-4e02-b9f5-0387ba60ad0e)
+
+
+#UP-DOWN-COUNTER:
+
+
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/c1b423d8-1cb2-407d-ae1e-8751469a56b7)
+
+
+#PROGRAM:
+
+
+module updown_counter(clk,rst,ud,out); 
+input clk,rst,ud;
+output reg[3:0]out;
+always@(posedge clk) begin if(rst==1) out=4'b0; 
+else if (ud==1) out=out+1;
+else
+if(ud==0) out=out-1; 
+end endmodule
+
+#OUTPUT:
+
+
+![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/9d4eeb22-682e-42df-9376-b7135f36ed23)
 
 
 #RESULT:
- Thus, The Flips Flops Implemented and simulated
-successfully. 
 
+ The simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using VIVA.
