@@ -27,22 +27,22 @@ and verify the outputs as per the truth table.
 
 
 ## PROGRAM:
-end module SRFF(s, r, clk, rst, q);
-input s, r, clk, rst;
-output reg q;
-always@(posedge clk)
-begin
-if(rst==1)
-q=1'b0;
-else
-begin
-case({s, r})
-2'b00:q=q;
-2'b01:q=1'b0;
-2'b10:q=1'b1;
-2'b11:q=1'bx;
-endcase
-end 
+end module SRFF(s, r, clk, rst, q);<br>
+input s, r, clk, rst;<br>
+output reg q;<br>
+always@(posedge clk)<br>
+begin<br>
+if(rst==1)<br>
+q=1'b0;<br>
+else<br>
+begin<br>
+case({s, r})<br>
+2'b00:q=q;<br>
+2'b01:q=1'b0;<br>
+2'b10:q=1'b1;<br>
+2'b11:q=1'bx;<br>
+endcase<br>
+end <br>
 endmodule
 
 
@@ -57,23 +57,23 @@ endmodule
 
 
 ## PROGRAM:
-module JKFF(j, k, clk, rst, q);
-input j, k, clk, rst;
-output reg q;
-always@(posedge clk)
-begin
-if(rst==1)
-q=1'b0;
-else
-begin
-case({j, k})
-2'b00:q=q;
-2'b01:q=1'b0;
-2'b10:q=1'b1;
-2'b11:q=~q;
-endcase
-end
-end
+module JKFF(j, k, clk, rst, q);<br>
+input j, k, clk, rst;<br>
+output reg q;<br>
+always@(posedge clk)<br>
+begin<br>
+if(rst==1)<br>
+q=1'b0;<br>
+else<br>
+begin<br>
+case({j, k})<br>
+2'b00:q=q;<br>
+2'b01:q=1'b0;<br>
+2'b10:q=1'b1;<br>
+2'b11:q=~q;<br>
+endcase<br>
+end<br>
+end<br>
 endmodule
 
 
@@ -89,21 +89,21 @@ endmodule
 
 
 ## PROGRAM:
-module TFF(clk, rst, t, q);
-input t, clk, rst;
-output reg q;
-always@(posedge clk)
-begin
-if(rst==1)
-q=1'b0;
-else
-begin
-if(t==0)
-q=q;
-else
-q=~q;
-end
-end
+module TFF(clk, rst, t, q);<br>
+input t, clk, rst;<br>
+output reg q;<br>
+always@(posedge clk)<br>
+begin<br>
+if(rst==1)<br>
+q=1'b0;<br>
+else<br>
+begin<br>
+if(t==0)<br>
+q=q;<br>
+else<br>
+q=~q;<br>
+end<br>
+end<br>
 endmodule
 
 
@@ -119,16 +119,16 @@ endmodule
 
 
 ## PROGRAM:
-module DFF(d, q, clk, rst);
-input d, clk, rst;
-output reg q;
-always@(posedge clk)
-begin
-if(rst==1)
-q=1'b0;
-else
-q=d;
-end
+module DFF(d, q, clk, rst);<br>
+input d, clk, rst;<br>
+output reg q;<br>
+always@(posedge clk)<br>
+begin<br>
+if(rst==1)<br>
+q=1'b0;<br>
+else<br>
+q=d;<br>
+end<br>
  endmodule
  
 
@@ -142,16 +142,16 @@ end
 
 ## PROGRAM:
 
-module mod_10(clk,rst,out);
-input clk,rst;
-output reg[3:0]out;
-always@(posedge clk)
-begin
-if(rst==1|out==9)
-out=4'b0;
-else
-out=out+1;
-end
+module mod_10(clk,rst,out);<br>
+input clk,rst;<br>
+output reg[3:0]out;<br>
+always@(posedge clk)<br>
+begin<br>
+if(rst==1|out==9)<br>
+out=4'b0;<br>
+else<br>
+out=out+1;<br>
+end<br>
 endmodule
 
 
@@ -169,13 +169,13 @@ endmodule
 ## PROGRAM:
 
 
-module updown_counter(clk,rst,ud,out); 
-input clk,rst,ud;
-output reg[3:0]out;
-always@(posedge clk) begin if(rst==1) out=4'b0; 
-else if (ud==1) out=out+1;
-else
-if(ud==0) out=out-1; 
+module updown_counter(clk,rst,ud,out);<br>
+input clk,rst,ud;<br>
+output reg[3:0]out;<br>
+always@(posedge clk) begin if(rst==1) out=4'b0; <br>
+else if (ud==1) out=out+1;<br>
+else<br>
+if(ud==0) out=out-1;<br>
 end endmodule
 
 ## OUTPUT:
