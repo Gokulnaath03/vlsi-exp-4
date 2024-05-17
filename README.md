@@ -156,7 +156,7 @@ end<br>
 endmodule
 
 
-## OUPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-4/assets/167178811/49ae3a7d-1a45-4e02-b9f5-0387ba60ad0e)
 
